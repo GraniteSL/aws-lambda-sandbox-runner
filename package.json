@@ -1,0 +1,22 @@
+{
+  "name": "aws-lambda-sandbox-runner",
+  "version": "0.1.0",
+  "description": "CLI to run the function intended for AWS Lambda locally.",
+  "main": "index.js",
+  "bin": {
+    "alsr": "bin/alsr.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/borwahs/aws-lambda-sandbox-runner.git"
+  },
+  "author": "Rob Shaw <rob@borwahs.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "commander": "^2.13.0",
+    "is-valid-json": "^1.0.2"
+  }
+}
